@@ -1,0 +1,54 @@
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root{
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    /* line-height: 1.4375em; */
+    /* letter-spacing: 0.00938em; */
+    /* color: rgba(0, 0, 0, 0.87); */
+    /* box-sizing: border-box; */
+    /* position: relative; */
+    /* cursor: text; */
+    /* display: -webkit-inline-box; */
+    /* display: -webkit-inline-flex; */
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    /* -webkit-align-items: center; */
+    /* -webkit-box-align: center; */
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    /* /* border-radius: 4px; */
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input 
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    padding-right: 32px;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input 
+.MuiSelect-select {
+    height: 100% !important;
+    /* min-height: 1.4375em; */
+    /* text-overflow: ellipsis; */
+    white-space: pre-wrap !important;
+    overflow: hidden !important;
+    max-height: 100% !important;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+    height: auto;
+    min-height: 1.4375em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.css-ahj2mt-MuiTypography-root {
+    margin: 0;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+}

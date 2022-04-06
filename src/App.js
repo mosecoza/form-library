@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import { FormInput } from 'react-form-library';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h6>
+
+        React Form Library App
+      </h6>
+      <FormInput handle={e => console.log(e.currentTarget.value)} type="text" id="name"
+        value=""
+        required={true}
+        validationString="this is required"
+        label="Name of the Community Scheme"
+      />
     </div>
   );
 }
